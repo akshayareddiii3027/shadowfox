@@ -7,7 +7,6 @@ import Stats from './components/Stats';
 import News from './components/News';
 import FanZone from './components/FanZone';
 import Gallery from './components/Gallery';
-import PlayerSpotlight from './components/PlayerSpotlight';
 import Footer from './components/Footer';
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
         <main>
           <Hero />
           <Squad />
-          <PlayerSpotlight />
           <Matches />
           <Stats />
           <News />
