@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid meet">
+  <!-- Simple SRH jersey overlay: orange body with transparent cutout for the player's face/upper body -->
+  <defs>
+    <mask id="cutout">
+      <rect x="0" y="0" width="400" height="500" fill="white" />
+      <!-- transparent oval where the player's head/upper torso shows through -->
+      <ellipse cx="200" cy="150" rx="110" ry="110" fill="black" />
+    </mask>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="18" flood-color="#000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- jersey shape with head cutout mask -->
+  <g filter="url(#shadow)" mask="url(#cutout)">
+    <path d="M60 120 C60 80, 120 40, 200 40 C280 40, 340 80, 340 120 L340 320 C340 360, 300 420, 200 460 C100 420, 60 360, 60 320 Z" fill="#F26522" />
+    <!-- sleeve highlights -->
+    <path d="M60 120 C20 140, 20 200, 60 220" fill="#d65518" opacity="0.95" />
+    <path d="M340 120 C380 140, 380 200, 340 220" fill="#d65518" opacity="0.95" />
+    <!-- collar cut -->
+    <path d="M140 60 C160 40, 240 40, 260 60 C240 80, 160 80, 140 60 Z" fill="#111111" />
+  </g>
+*** End Patch
+</svg>

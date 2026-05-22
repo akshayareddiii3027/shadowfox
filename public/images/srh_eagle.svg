@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid meet">
+  <!-- Stylized SRH eagle emblem for background use -->
+  <g fill="none" stroke="#F26522" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" opacity="0.95">
+    <path d="M400 120 C470 120, 560 160, 620 220 C660 260, 690 320, 690 360 C690 420, 640 460, 580 480 C520 500, 480 500, 440 490 C400 480, 360 440, 320 420 C260 390, 200 350, 160 300 C120 250, 140 190, 200 160 C260 130, 330 120, 400 120 Z" fill="#000" opacity="0.02" />
+    <path d="M200 360 C250 320, 320 310, 400 320 C480 330, 540 350, 620 380" />
+    <path d="M220 300 C260 260, 320 240, 400 240 C480 240, 540 260, 600 300" />
+    <path d="M300 200 C350 160, 450 150, 500 190" />
+    <path d="M500 240 C540 200, 620 200, 660 240" />
+    <path d="M360 420 C380 450, 420 470, 460 480" />
+  </g>
+</svg>
